@@ -70,5 +70,10 @@
   "signals": [
     {"id": "MACANEV_CRASH_CNT_ROLL", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rollover"}
   ]}
+],
+"synthetics": [
+  { "id": "MACANEV_SOC_EST", "path": "Battery", "name": "State of charge (from capacity)", "max": 1, "min": 0, "unit": "normal", "suggestedMetric": "stateOfCharge", "formula": {
+    "op": "ratio", "a": "MACANEV_HVBAT_KWH", "b": "MACANEV_HVBAT_CAP"
+  }}
 ]
 }
