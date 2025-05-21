@@ -52,8 +52,7 @@
   ]},
 { "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2353"}, "freq": 3600,
   "signals": [
-    {"id": "MACANEV_CRASH_CNT_FRONT", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, front"},
-    {"id": "MACANEV_CRSH_FRONT",      "path": "Trips", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, front"}
+    {"id": "MACANEV_CRASH_CNT_FRONT", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, front"}
   ]},
 { "hdr": "715", "rax": "77F", "cmd": {"22": "2354"}, "freq": 3600,
   "signals": [
@@ -69,8 +68,7 @@
   ]},
 { "hdr": "715", "rax": "77F", "cmd": {"22": "2357"}, "freq": 3600,
   "signals": [
-    {"id": "MACANEV_CRASH_CNT_ROLL",     "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rollover"},
-    {"id": "MACANEV_CRASH_CNT_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rollover"}
+    {"id": "MACANEV_CRASH_CNT_ROLL",     "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rollover"}
   ]}
 ]
 }
