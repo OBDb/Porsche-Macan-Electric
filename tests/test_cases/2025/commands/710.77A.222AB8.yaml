@@ -3,22 +3,27 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
-    77A100B622AB8000007
-    77A213F00000000AAAA
+    77A100B622AB8000006
+    77A21B800000000AAAA
   expected_values:
-    MACANEV_HVBAT_KWH: 46375.0
+    MACANEV_HVBAT_KWH: 43000
+- response: |-
+    77A100B622AB8000007
+    77A212F00000000AAAA
+  expected_values:
+    MACANEV_HVBAT_KWH: 45975
+- response: |-
+    77A100B622AB8000007
+    77A213000000000AAAA
+  expected_values:
+    MACANEV_HVBAT_KWH: 46000
 - response: |-
     77A100B622AB8000007
     77A21FA00000000AAAA
   expected_values:
-    MACANEV_HVBAT_KWH: 51050.0
+    MACANEV_HVBAT_KWH: 51050
 - response: |-
     77A100B622AB8000008
     77A210400000000AAAA
   expected_values:
-    MACANEV_HVBAT_KWH: 51300.0
-- response: |-
-    77A100B622AB8000008
-    77A214000000000AAAA
-  expected_values:
-    MACANEV_HVBAT_KWH: 52800.0
+    MACANEV_HVBAT_KWH: 51300

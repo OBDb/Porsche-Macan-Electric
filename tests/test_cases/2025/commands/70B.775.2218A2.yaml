@@ -4,29 +4,31 @@ extended_addressing_enabled: false
 test_cases:
 - response: |-
     775100C6218A22609A8
+    77521A42279397C00AA
+  expected_values:
+    MACANEV_TP_RL: 3.025
+- response: |-
+    775100C6218A22609A8
+    77521A4227D3D7C00AA
+  expected_values:
+    MACANEV_TP_RL: 3.125
+- response: |-
+    775100C6218A22609A8
+    77521A4227E407C00AA
+  expected_values:
+    MACANEV_TP_RL: 3.15
+- response: |-
+    775100C6218A22609A8
+    77521A4227E407C00AA
+    775100C6218A12609B3
+    77521E4217D3F7C00AA
+  expected_values:
+    MACANEV_TP_RL: 3.15
+- response: |-
+    775100C6218A22609A8
     77521A42281477C00AA
   expected_values:
     MACANEV_TP_RL: 3.225
-- response: |-
-    775100C6218A22609A8
-    77521A42282477C00AA
-  expected_values:
-    MACANEV_TP_RL: 3.25
-- response: |-
-    775100C6218A22609A8
-    77521A42283477C00AA
-  expected_values:
-    MACANEV_TP_RL: 3.275
-- response: |-
-    775100C6218A22609A8
-    77521A42283487C00AA
-  expected_values:
-    MACANEV_TP_RL: 3.275
-- response: |-
-    775100C6218A22609A8
-    77521A42283497C00AA
-  expected_values:
-    MACANEV_TP_RL: 3.275
 - response: |-
     775100C6218A22609A8
     77521A42283497C00AA
@@ -34,23 +36,3 @@ test_cases:
     77521E42182497C00AA
   expected_values:
     MACANEV_TP_RL: 3.275
-- response: |-
-    775100C6218A22609A8
-    77521A42284477C00AA
-  expected_values:
-    MACANEV_TP_RL: 3.3
-- response: |-
-    775100C6218A22609A8
-    77521A42284487C00AA
-  expected_values:
-    MACANEV_TP_RL: 3.3
-- response: |-
-    775100C6218A22609A8
-    77521A42284497C00AA
-  expected_values:
-    MACANEV_TP_RL: 3.3
-- response: |-
-    775100C6218A22609A8
-    77521A42285487C00AA
-  expected_values:
-    MACANEV_TP_RL: 3.325
