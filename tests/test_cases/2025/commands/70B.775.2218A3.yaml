@@ -1,0 +1,49 @@
+command_id: 70B.775.2218A3
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    775100C6218A32609A0
+    77521782381477C00AA
+  expected_values:
+    PORSCHE_TID_4: 100
+    PORSCHE_TPS_4: 0
+    PORSCHE_TP_4: 7.1
+    PORSCHE_TP_RR: 3.225
+    PORSCHE_TT_4: 84
+- response: |-
+    775100C6218A32609A0
+    77521782382487C00AA
+  expected_values:
+    PORSCHE_TID_4: 100
+    PORSCHE_TPS_4: 0
+    PORSCHE_TP_4: 7.2
+    PORSCHE_TP_RR: 3.25
+    PORSCHE_TT_4: 84
+- response: |-
+    775100C6218A32609A0
+    77521782384467C00AA
+  expected_values:
+    PORSCHE_TID_4: 100
+    PORSCHE_TPS_4: 0
+    PORSCHE_TP_4: 7
+    PORSCHE_TP_RR: 3.3
+    PORSCHE_TT_4: 84
+- response: |-
+    775100C6218A32609A0
+    775217823FFA77C00AA
+  expected_values:
+    PORSCHE_TID_4: 100
+    PORSCHE_TPS_4: 0
+    PORSCHE_TP_4: 16.7
+    PORSCHE_TT_4: 84
+- response: |-
+    775100C6218A32609A0
+    775217823FFA77C00AA
+    775100C6218A22609A8
+    77521A422FFA77C00AA
+  expected_values:
+    PORSCHE_TID_4: 100
+    PORSCHE_TPS_4: 0
+    PORSCHE_TP_4: 16.7
+    PORSCHE_TT_4: 84

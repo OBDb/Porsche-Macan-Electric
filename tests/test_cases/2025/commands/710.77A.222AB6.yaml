@@ -1,0 +1,29 @@
+command_id: 710.77A.222AB6
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    77A100A622AB6008D00
+    77A218D07FD01AAAAAA
+  expected_values:
+    PORSCHE_RANGE: 141
+- response: |-
+    77A100A622AB6009000
+    77A219007FD01AAAAAA
+  expected_values:
+    PORSCHE_RANGE: 144
+- response: |-
+    77A100A622AB6009F00
+    77A219F07FD01AAAAAA
+  expected_values:
+    PORSCHE_RANGE: 159
+- response: |-
+    77A100A622AB600A000
+    77A21A007FD01AAAAAA
+  expected_values:
+    PORSCHE_RANGE: 160
+- response: |-
+    77A100A622AB600A700
+    77A21A707FD01AAAAAA
+  expected_values:
+    PORSCHE_RANGE: 167

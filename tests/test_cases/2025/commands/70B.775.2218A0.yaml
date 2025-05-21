@@ -1,0 +1,93 @@
+command_id: 70B.775.2218A0
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    775100C6218A02609B3
+    77521C12081467C00AA
+  expected_values:
+    PORSCHE_TID_1: 100
+    PORSCHE_TPS_1: 0
+    PORSCHE_TP_1: 7
+    PORSCHE_TP_FR: 3.225
+    PORSCHE_TT_1: 84
+- response: |-
+    775100C6218A02609B3
+    77521C12081487C00AA
+  expected_values:
+    PORSCHE_TID_1: 100
+    PORSCHE_TPS_1: 0
+    PORSCHE_TP_1: 7.2
+    PORSCHE_TP_FR: 3.225
+    PORSCHE_TT_1: 84
+- response: |-
+    775100C6218A02609B3
+    77521C12082467C00AA
+  expected_values:
+    PORSCHE_TID_1: 100
+    PORSCHE_TPS_1: 0
+    PORSCHE_TP_1: 7
+    PORSCHE_TP_FR: 3.25
+    PORSCHE_TT_1: 84
+- response: |-
+    775100C6218A02609B3
+    77521C12082477C00AA
+  expected_values:
+    PORSCHE_TID_1: 100
+    PORSCHE_TPS_1: 0
+    PORSCHE_TP_1: 7.1
+    PORSCHE_TP_FR: 3.25
+    PORSCHE_TT_1: 84
+- response: |-
+    775100C6218A02609B3
+    77521C12082487C00AA
+  expected_values:
+    PORSCHE_TID_1: 100
+    PORSCHE_TPS_1: 0
+    PORSCHE_TP_1: 7.2
+    PORSCHE_TP_FR: 3.25
+    PORSCHE_TT_1: 84
+- response: |-
+    775100C6218A02609B3
+    77521C12082497C00AA
+  expected_values:
+    PORSCHE_TID_1: 100
+    PORSCHE_TPS_1: 0
+    PORSCHE_TP_1: 7.3
+    PORSCHE_TP_FR: 3.25
+    PORSCHE_TT_1: 84
+- response: |-
+    775100C6218A02609B3
+    77521C12083477C00AA
+  expected_values:
+    PORSCHE_TID_1: 100
+    PORSCHE_TPS_1: 0
+    PORSCHE_TP_1: 7.1
+    PORSCHE_TP_FR: 3.275
+    PORSCHE_TT_1: 84
+- response: |-
+    775100C6218A02609B3
+    77521C12083487C00AA
+  expected_values:
+    PORSCHE_TID_1: 100
+    PORSCHE_TPS_1: 0
+    PORSCHE_TP_1: 7.2
+    PORSCHE_TP_FR: 3.275
+    PORSCHE_TT_1: 84
+- response: |-
+    775100C6218A02609B3
+    77521C12083497C00AA
+  expected_values:
+    PORSCHE_TID_1: 100
+    PORSCHE_TPS_1: 0
+    PORSCHE_TP_1: 7.3
+    PORSCHE_TP_FR: 3.275
+    PORSCHE_TT_1: 84
+- response: |-
+    775100C6218A02609B3
+    77521C120FFA77C00AA
+  expected_values:
+    PORSCHE_TID_1: 100
+    PORSCHE_TPS_1: 0
+    PORSCHE_TP_1: 16.7
+    PORSCHE_TT_1: 84

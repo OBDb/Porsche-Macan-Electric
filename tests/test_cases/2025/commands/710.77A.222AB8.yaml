@@ -1,0 +1,24 @@
+command_id: 710.77A.222AB8
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    77A100B622AB8000007
+    77A213F00000000AAAA
+  expected_values:
+    PORSCHE_HVBAT_KWH_V2: 0.00142
+- response: |-
+    77A100B622AB8000007
+    77A21FA00000000AAAA
+  expected_values:
+    PORSCHE_HVBAT_KWH_V2: 0.00156
+- response: |-
+    77A100B622AB8000008
+    77A210400000000AAAA
+  expected_values:
+    PORSCHE_HVBAT_KWH_V2: 0.00157
+- response: |-
+    77A100B622AB8000008
+    77A214000000000AAAA
+  expected_values:
+    PORSCHE_HVBAT_KWH_V2: 0.00161
