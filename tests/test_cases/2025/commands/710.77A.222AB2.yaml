@@ -4,4 +4,4 @@ extended_addressing_enabled: false
 test_cases:
 - response: 77A07622AB207660400
   expected_values:
-    MACANEV_HVBAT_CAP: 94.69717
+    MACANEV_HVBAT_CAP: 94700.0
