@@ -69,11 +69,6 @@
 { "hdr": "715", "rax": "77F", "cmd": {"22": "2357"}, "freq": 3600,
   "signals": [
     {"id": "MACANEV_CRASH_CNT_ROLL", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rollover"}
-  ]},
-{ "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "fcm1": true, "dbg": true, "cmd": {"22": "1E34"}, "freq": 0.25,
-  "signals": [
-    {"id": "MACANEV_HVB_CV_LOW_V",  "path": "Battery", "fmt": {           "len": 16, "max": 15.99, "mul": 2.441, "div": 10000, "unit": "volts"  }, "name": "Battery pack cell, lowest voltage"},
-    {"id": "MACANEV_HVB_CV_LOW_ID", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535,                             "unit": "scalar" }, "name": "Battery pack cell, lowest voltage ID "}
   ]}
 ],
 "synthetics": [
