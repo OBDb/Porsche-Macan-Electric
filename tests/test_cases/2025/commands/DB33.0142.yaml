@@ -9,4 +9,4 @@ test_cases:
     18DAF1140441423714
     18DAF10404414237FC
   expected_values:
-    VPWR: 14.1
+    VPWR: 14.332

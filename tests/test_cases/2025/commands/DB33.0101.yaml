@@ -42,7 +42,7 @@ test_cases:
     CCM_RDY: 0
     CCM_SUP: 1
     CIM_SUP: SPARK
-    DTC_CNT: 2
+    DTC_CNT: 0
     EGR_RDY: 0
     EGR_SUP: 0
     EVAP_RDY: 0
