@@ -1,12 +1,10 @@
-command_id: 710.77A.222AB8
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
+command_id: 710.77A.222AB8|fc=1
 test_cases:
 - response: |-
-    77A100B622AB8000006
-    77A21B800000000AAAA
+    77A100B622AB8000005
+    77A214900000000AAAA
   expected_values:
-    MACANEV_HVBAT_KWH: 43000
+    MACANEV_HVBAT_KWH: 33825
 - response: |-
     77A100B622AB8000007
     77A212F00000000AAAA
@@ -27,3 +25,13 @@ test_cases:
     77A210400000000AAAA
   expected_values:
     MACANEV_HVBAT_KWH: 51300
+- response: |-
+    77A100B622AB8000009
+    77A21EA00000000AAAA
+  expected_values:
+    MACANEV_HVBAT_KWH: 63450
+- response: |-
+    77A100B622AB800000A
+    77A213200000000AAAA
+  expected_values:
+    MACANEV_HVBAT_KWH: 65250

@@ -1,6 +1,4 @@
-command_id: 710.77A.222AB6
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
+command_id: 710.77A.222AB6|fc=1
 test_cases:
 - response: |-
     77A100A622AB6008D00
@@ -18,12 +16,17 @@ test_cases:
   expected_values:
     MACANEV_RANGE: 159
 - response: |-
-    77A100A622AB600A000
-    77A21A007FD01AAAAAA
+    77A100A622AB600D800
+    77A21D807FD01AAAAAA
   expected_values:
-    MACANEV_RANGE: 160
+    MACANEV_RANGE: 216
 - response: |-
-    77A100A622AB600A700
-    77A21A707FD01AAAAAA
+    77A100A622AB600E400
+    77A21E407FD01AAAAAA
   expected_values:
-    MACANEV_RANGE: 167
+    MACANEV_RANGE: 228
+- response: |-
+    77A100A622AB600EA00
+    77A21EA07FD01AAAAAA
+  expected_values:
+    MACANEV_RANGE: 234

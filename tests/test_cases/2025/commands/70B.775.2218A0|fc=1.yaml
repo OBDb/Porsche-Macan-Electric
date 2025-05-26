@@ -1,12 +1,5 @@
-command_id: 70B.775.2218A0
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
+command_id: 70B.775.2218A0|fc=1
 test_cases:
-- response: |-
-    775100C6218A02609B3
-    77521C12078397C00AA
-  expected_values:
-    MACANEV_TP_FR: 3
 - response: |-
     775100C6218A02609B3
     77521C1207C407C00AA
@@ -14,16 +7,23 @@ test_cases:
     MACANEV_TP_FR: 3.1
 - response: |-
     775100C6218A02609B3
-    77521C1207D3D7C00AA
-  expected_values:
-    MACANEV_TP_FR: 3.125
-- response: |-
-    775100C6218A02609B3
     77521C1207D3F7C00AA
   expected_values:
     MACANEV_TP_FR: 3.125
 - response: |-
     775100C6218A02609B3
+    77521C1207E417C00AA
+  expected_values:
+    MACANEV_TP_FR: 3.15
+- response: |-
+    775100C6218A02609B3
     77521C12081467C00AA
   expected_values:
     MACANEV_TP_FR: 3.225
+- response: |-
+    775100C6218A32609A0
+    7752178237E3F7C00AA
+    775100C6218A02609B3
+    77521C1207D3F7C00AA
+  expected_values:
+    MACANEV_TP_FR: 3.125
