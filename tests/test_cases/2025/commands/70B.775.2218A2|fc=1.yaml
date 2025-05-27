@@ -14,7 +14,7 @@ test_cases:
     MACANEV_TP_RL: 3.1
 - response: |-
     775100C6218A22609A8
-    77521A4227D3D7C00AA
+    77521A4227D3E7C00AA
   expected_values:
     MACANEV_TP_RL: 3.125
 - response: |-
