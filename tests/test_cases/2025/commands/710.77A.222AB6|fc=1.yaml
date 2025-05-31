@@ -1,0 +1,27 @@
+command_id: 710.77A.222AB6|fc=1
+test_cases:
+- response: |-
+    77A100A622AB6005600
+    77A215607FD01AAAAAA
+  expected_values:
+    MACANEV_RANGE: 86
+- response: |-
+    77A100A622AB6005F00
+    77A215F07FD01AAAAAA
+  expected_values:
+    MACANEV_RANGE: 95
+- response: |-
+    77A100A622AB6006000
+    77A216007FD01AAAAAA
+  expected_values:
+    MACANEV_RANGE: 96
+- response: |-
+    77A100A622AB600E400
+    77A21E407FD01AAAAAA
+  expected_values:
+    MACANEV_RANGE: 228
+- response: |-
+    77A100A622AB600EA00
+    77A21EA07FD01AAAAAA
+  expected_values:
+    MACANEV_RANGE: 234
