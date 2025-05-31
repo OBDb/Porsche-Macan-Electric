@@ -1,0 +1,8 @@
+command_id: 710.77A.222AB2|fc=1
+test_cases:
+- response: 77A07622AB207660400
+  expected_values:
+    MACANEV_HVBAT_CAP: 94700
+- response: 77A07622AB207670400
+  expected_values:
+    MACANEV_HVBAT_CAP: 94750
