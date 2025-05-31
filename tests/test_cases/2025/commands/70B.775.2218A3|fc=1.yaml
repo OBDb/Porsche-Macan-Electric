@@ -29,6 +29,6 @@ test_cases:
     MACANEV_TP_RR: 3.175
 - response: |-
     775100C6218A32609A0
-    77521782381477C00AA
+    77521782380407C00AA
   expected_values:
-    MACANEV_TP_RR: 3.225
+    MACANEV_TP_RR: 3.2

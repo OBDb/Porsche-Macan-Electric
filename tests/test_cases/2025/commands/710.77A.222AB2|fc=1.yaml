@@ -6,3 +6,6 @@ test_cases:
 - response: 77A07622AB207670400
   expected_values:
     MACANEV_HVBAT_CAP: 94750
+- response: 77A07622AB207680400
+  expected_values:
+    MACANEV_HVBAT_CAP: 94800
