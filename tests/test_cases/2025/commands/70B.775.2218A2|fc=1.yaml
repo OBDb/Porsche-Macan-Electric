@@ -1,48 +1,48 @@
 command_id: 70B.775.2218A2|fc=1
 test_cases:
-- response: |-
+- expected_values:
+    MACANEV_TP_RL: 3.025
+  response: |-
     775100C6218A12609B3
     77521E42178397C00AA
     775100C6218A22609A8
     77521A42279397C00AA
-  expected_values:
-    MACANEV_TP_RL: 3.025
-- response: |-
+- expected_values:
+    MACANEV_TP_RL: 2.95
+  response: |-
     775100C6218A22609A8
     77521A42276367C00AA
-  expected_values:
-    MACANEV_TP_RL: 2.95
-- response: |-
+- expected_values:
+    MACANEV_TP_RL: 3.1
+  response: |-
     775100C6218A22609A8
     77521A4227C407C00AA
-  expected_values:
-    MACANEV_TP_RL: 3.1
-- response: |-
+- expected_values:
+    MACANEV_TP_RL: 3.125
+  response: |-
     775100C6218A22609A8
     77521A4227D3E7C00AA
-  expected_values:
-    MACANEV_TP_RL: 3.125
-- response: |-
+- expected_values:
+    MACANEV_TP_RL: 3.175
+  response: |-
     775100C6218A22609A8
     77521A4227F417C00AA
-  expected_values:
-    MACANEV_TP_RL: 3.175
-- response: |-
+- expected_values:
+    MACANEV_TP_RL: 3.2
+  response: |-
     775100C6218A22609A8
     77521A42280427C00AA
-  expected_values:
-    MACANEV_TP_RL: 3.2
-- response: |-
+- expected_values:
+    MACANEV_TP_RL: 3.05
+  response: |-
     775100C6218A32609A0
     7752178237A397C00AA
     775100C6218A22609A8
     77521A4227A397C00AA
-  expected_values:
-    MACANEV_TP_RL: 3.05
-- response: |-
+- expected_values:
+    MACANEV_TP_RL: 3.15
+  response: |-
     775100C6218A32609A0
     7752178237E3F7C00AA
     775100C6218A22609A8
     77521A4227E407C00AA
-  expected_values:
-    MACANEV_TP_RL: 3.15
