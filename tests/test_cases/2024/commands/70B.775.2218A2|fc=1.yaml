@@ -1,0 +1,47 @@
+command_id: 70B.775.2218A2|fc=1
+test_cases:
+- expected_values:
+    MACANEV_TP_RL: 2.85
+  response: |-
+    775100C6218A2247657
+    77521ED22723A6C00AA
+- expected_values:
+    MACANEV_TP_RL: 2.875
+  response: |-
+    775100C6218A2247657
+    77521ED2273396C00AA
+- expected_values:
+    MACANEV_TP_RL: 2.9
+  response: |-
+    775100C6218A2247657
+    77521ED2274396C00AA
+- expected_values:
+    MACANEV_TP_RL: 2.925
+  response: |-
+    775100C6218A2247657
+    77521ED2275396C00AA
+- expected_values:
+    MACANEV_TP_RL: 2.925
+  response: |-
+    775100C6218A2247657
+    77521ED22753A6C00AA
+- expected_values:
+    MACANEV_TP_RL: 2.925
+  response: |-
+    775100C6218A2247657
+    77521ED22753B6C00AA
+- expected_values:
+    MACANEV_TP_RL: 2.925
+  response: |-
+    775100C6218A2247657
+    77521ED22753C6C00AA
+- expected_values:
+    MACANEV_TP_RL: 2.95
+  response: |-
+    775100C6218A2247657
+    77521ED22763A6C00AA
+- expected_values:
+    MACANEV_TP_RL: 2.95
+  response: |-
+    775100C6218A2247657
+    77521ED22763B6C00AA
