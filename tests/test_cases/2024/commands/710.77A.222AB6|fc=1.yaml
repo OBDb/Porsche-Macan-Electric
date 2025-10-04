@@ -1,0 +1,52 @@
+command_id: 710.77A.222AB6|fc=1
+test_cases:
+- expected_values:
+    MACANEV_RANGE: 297
+  response: |-
+    77A100A622AB6012901
+    77A212907FD00AAAAAA
+- expected_values:
+    MACANEV_RANGE: 300
+  response: |-
+    77A100A622AB6012C01
+    77A212C07FD00AAAAAA
+- expected_values:
+    MACANEV_RANGE: 301
+  response: |-
+    77A100A622AB6012D01
+    77A212D07FD00AAAAAA
+- expected_values:
+    MACANEV_RANGE: 302
+  response: |-
+    77A100A622AB6012E01
+    77A212E07FD00AAAAAA
+- expected_values:
+    MACANEV_RANGE: 303
+  response: |-
+    77A100A622AB6012F01
+    77A212F07FD00AAAAAA
+- expected_values:
+    MACANEV_RANGE: 304
+  response: |-
+    77A100A622AB6013001
+    77A213007FD00AAAAAA
+- expected_values:
+    MACANEV_RANGE: 309
+  response: |-
+    77A100A622AB6013501
+    77A213507FD00AAAAAA
+- expected_values:
+    MACANEV_RANGE: 312
+  response: |-
+    77A100A622AB6013801
+    77A213807FD00AAAAAA
+- expected_values:
+    MACANEV_RANGE: 314
+  response: |-
+    77A100A622AB6013A01
+    77A213A07FD00AAAAAA
+- expected_values:
+    MACANEV_RANGE: 324
+  response: |-
+    77A100A622AB6014401
+    77A214407FD00AAAAAA

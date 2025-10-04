@@ -1,0 +1,27 @@
+command_id: 710.77A.222AB8|fc=1
+test_cases:
+- expected_values:
+    MACANEV_HVBAT_KWH: 62650
+  response: |-
+    77A100B622AB8000009
+    77A21CA00000000AAAA
+- expected_values:
+    MACANEV_HVBAT_KWH: 62800
+  response: |-
+    77A100B622AB8000009
+    77A21D000000000AAAA
+- expected_values:
+    MACANEV_HVBAT_KWH: 63175
+  response: |-
+    77A100B622AB8000009
+    77A21DF00000000AAAA
+- expected_values:
+    MACANEV_HVBAT_KWH: 63650
+  response: |-
+    77A100B622AB8000009
+    77A21F200000000AAAA
+- expected_values:
+    MACANEV_HVBAT_KWH: 64025
+  response: |-
+    77A100B622AB800000A
+    77A210100000000AAAA

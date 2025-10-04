@@ -1,0 +1,31 @@
+command_id: 70B.775.2218A0|fc=1
+test_cases:
+- expected_values:
+    MACANEV_TP_FR: 2.825
+  response: |-
+    775100C6218A02400F4
+    77521C92071386C00AA
+- expected_values:
+    MACANEV_TP_FR: 2.9
+  response: |-
+    775100C6218A02400F4
+    77521C920743B6C00AA
+- expected_values:
+    MACANEV_TP_FR: 2.925
+  response: |-
+    775100C6218A02400F4
+    77521C920753A6C00AA
+- expected_values:
+    MACANEV_TP_FR: 2.875
+  response: |-
+    775100C6218A12400F3
+    77521F32172386C00AA
+    775100C6218A02400F4
+    77521C92073396C00AA
+- expected_values:
+    MACANEV_TP_FR: 2.9
+  response: |-
+    775100C6218A2247657
+    77521ED22763B6C00AA
+    775100C6218A02400F4
+    77521C920743A6C00AA
