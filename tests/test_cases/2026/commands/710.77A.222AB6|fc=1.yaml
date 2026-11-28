@@ -1,0 +1,7 @@
+command_id: 710.77A.222AB6|fc=1
+test_cases:
+- expected_values:
+    MACANEV_RANGE: 455
+  response: |-
+    77A100A622AB601C701
+    77A21C707FD00AAAAAA
