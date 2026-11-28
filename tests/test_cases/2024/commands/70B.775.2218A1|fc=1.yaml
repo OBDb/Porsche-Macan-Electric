@@ -42,3 +42,8 @@ test_cases:
   response: |-
     775100C6218A12400F3
     77521F321743A6C00AA
+- expected_values:
+    MACANEV_TP_FL: null
+  response: |-
+    775100C6218A12400F3
+    77521F321FFA76C00AA

@@ -26,6 +26,11 @@ test_cases:
     775100C6218A02609B3
     77521C12080437C00AA
 - expected_values:
+    MACANEV_TP_FR: null
+  response: |-
+    775100C6218A02609B3
+    77521C120FFA77C00AA
+- expected_values:
     MACANEV_TP_FR: 3.125
   response: |-
     775100C6218A32609A0

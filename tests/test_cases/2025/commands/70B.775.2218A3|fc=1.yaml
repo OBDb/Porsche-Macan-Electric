@@ -1,6 +1,13 @@
 command_id: 70B.775.2218A3|fc=1
 test_cases:
 - expected_values:
+    MACANEV_TP_RR: null
+  response: |-
+    775100C6218A02609B3
+    77521C120FFA77C00AA
+    775100C6218A32609A0
+    775217823FFA77C00AA
+- expected_values:
     MACANEV_TP_RR: 3.175
   response: |-
     775100C6218A12609B3
